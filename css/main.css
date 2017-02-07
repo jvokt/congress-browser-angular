@@ -1,0 +1,79 @@
+body {
+  padding-top: 50px;
+    -webkit-overflow-scrolling: touch;
+}
+.sidebar {
+    position: fixed;
+    display: block;
+    background-color: #f5f5f5;
+    font-size: 1.5em;
+    left: 0;
+    bottom: 0;
+    top: 51px;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+.main {
+  padding: 30px;
+}
+
+.main .page-header {
+  margin-top: 0;
+}
+
+.legislatorsByState {
+    margin: 1em;
+}
+
+.legByStateFilter {
+    width: 10em;
+}
+
+.carousel-caption {
+    position: static;
+}
+
+.item {
+    display: block;
+}
+
+.fa-star {
+    color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: grey;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#toggleSidebar {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.congressAPI {
+    padding-bottom: 5px;
+}
+
+.fadeIn.ng-enter {
+    opacity: 0;
+    transition: 1s linear;
+}
+
+.fadeIn.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
+.fadeIn.ng-leave {
+    opacity: 1;
+    transition: 0 linear;
+}
+
+.fadeIn.ng-leave.ng-leave-active {
+    opacity: 0;
+}
